@@ -9,8 +9,8 @@ from utils import clean_text
 from email.message import EmailMessage
 
 def send_email(to_email, subject, body):
-    sender_email = "muralikarthik1923@gmail.com"  # Change to your email
-    sender_password = "dyda toup ysdh cgrb"  # Use an app password (not your real password)
+    sender_email = "*****************"  # Change to your email
+    sender_password = "*******"  # Use an gmail app password (not your real password)
 
     msg = EmailMessage()
     msg["From"] = sender_email
